@@ -1,0 +1,118 @@
+ {
+	"responsive": true,
+	"tmpSocialIconFont": true,
+	"variations": [
+		{
+			"value" : "red",
+			"sample": "#ca261b",
+			"is-dark": false
+		},
+		{
+			"value" : "yellow",
+			"sample": "#feb813",
+			"is-dark": false
+		},
+		{
+			"value" : "pink",
+			"sample": "#e33783",
+			"is-dark": false
+		},
+		{
+			"value" : "green",
+			"sample": "#67d22a",
+			"is-dark": false
+		},
+		{
+			"value" : "blue",
+			"sample": "#0083dd",
+			"is-dark": false
+		},
+		{
+			"value" : "orange",
+			"sample": "#f9690e",
+			"is-dark": false
+		}
+	],
+	"custom-options": [
+		{
+            "name" : "custom-option",
+            "title": "Using Custom Color Options",
+            "type" : "toggle",
+            "default" : false,
+            "is-body-class" : true,
+            "is-less-var" : false
+        },
+		{
+		    "name" : "sticky-featured",
+		    "title": "Featured Area",
+		    "type" : "toggle",
+		    "default" : true,
+		    "is-body-class" : true,
+		    "is-less-var" : false
+		},
+		{
+		    "name" : "sticky-bottom",
+		    "title": "Bottom Area",
+		    "type" : "toggle",
+		    "default" : true,
+		    "is-body-class" : true,
+		    "is-less-var" : false
+		},
+		{
+            "name": "BGColor",
+            "title": "BG Color",
+            "type": "color",
+            "default": "#ffffff",
+			"is-body-class" : false,
+			"is-less-var" : true
+        },
+		{
+            "name": "NavColor",
+            "title": "Nav BG Color",
+            "type": "color",
+            "default": "#111111",
+			"is-body-class" : false,
+			"is-less-var" : true
+        },
+		{
+            "name": "MenuColor",
+            "title": "Nav Text Color",
+            "type": "color",
+            "default": "#fff",
+			"is-body-class" : false,
+			"is-less-var" : true
+        },
+		{
+            "name": "MenuActiveColor",
+            "title": "Nav Active Color",
+            "type": "color",
+            "default": "#ca261b",
+			"is-body-class" : false,
+			"is-less-var" : true
+        },
+		{
+            "name": "FeaturedColor",
+            "title": "Featured Area BG Color",
+            "type": "color",
+            "default": "#111111",
+			"is-body-class" : false,
+			"is-less-var" : true
+        },
+		{
+            "name": "BottomColor",
+            "title": "Bottom Area BG Color",
+            "type": "color",
+            "default": "#ca261b",
+			"is-body-class" : false,
+			"is-less-var" : true
+        },
+		{
+            "name": "FooterColor",
+            "title": "Footer BG Color",
+            "type": "color",
+            "default": "#111111",
+			"is-body-class" : false,
+			"is-less-var" : true
+        }
+	]
+}
